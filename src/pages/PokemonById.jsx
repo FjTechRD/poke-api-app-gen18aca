@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import Error404 from "../components/Error404";
 import "./style/pokemonbyid.css";
 
@@ -8,6 +8,7 @@ const PokemonById = () => {
   const { id } = useParams();
   const [pokemon, setPokemon] = useState();
   const [notFound, setNotFound] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const URL = `https://pokeapi.co/api/v2/pokemon/${id}/`;
@@ -19,6 +20,10 @@ const PokemonById = () => {
         setNotFound(true);
       });
   }, []);
+
+  const handleBack = () => {
+    navigate("/pokedex");
+  };
 
   if (notFound) {
     return <Error404 />;
@@ -100,6 +105,9 @@ const PokemonById = () => {
           </ul>
         </section>
       </div>
+      <button onClick={handleBack} className="btn btn-pokemon-id">
+        ←
+      </button>
     </article>
   );
 };

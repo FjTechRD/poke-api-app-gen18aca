@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 3rem;
 }
 
 .poke-id__header {
@@ -94,7 +95,7 @@
 }
 
 .pokemon__movements {
-  margin-bottom: 15rem;
+  margin-bottom: 3rem;
 }
 
 .pokemon__movements,
@@ -132,6 +133,18 @@
 
 .pokemon__movements li:hover {
   background-color: #80808070;
+}
+
+.btn-pokemon-id {
+  border-radius: 50%;
+  padding: 2rem;
+}
+
+.btn-pokemon-id:hover {
+  border-radius: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+  color: #000;
 }
 
 @media (min-width: 768px) {
