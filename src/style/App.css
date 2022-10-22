@@ -1,0 +1,18 @@
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+aside {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-evenly;
+}
+
+.global-container {
+  padding-bottom: 2rem;
+}
+
+.pokedex {
+  margin-bottom: 6rem;
+}

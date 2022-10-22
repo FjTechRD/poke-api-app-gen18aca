@@ -1,0 +1,10 @@
+.list__type {
+  padding: 1rem;
+  border: none;
+}
+
+.list__type:hover {
+  border: 0.1rem solid var(--colorPrin);
+  border-radius: 1rem;
+  box-sizing: border-box;
+}

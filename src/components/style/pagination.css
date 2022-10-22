@@ -1,0 +1,38 @@
+.pagination {
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pagination__block {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pagination__page,
+.pagination__next,
+.pagination-block,
+.pagination__prev {
+  cursor: pointer;
+  width: 3.5rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__active {
+  background-color: var(--colorPrin);
+  color: var(--white);
+  border-radius: 0.5rem;
+}
+
+.pagination__page:hover,
+.pagination-block:hover {
+  background-color: #b90000;
+  color: #fff;
+  border-radius: 1rem;
+}

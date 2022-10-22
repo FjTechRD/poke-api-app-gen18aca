@@ -1,0 +1,50 @@
+.line__black {
+  height: 4rem;
+  width: 100%;
+  background-color: var(--black);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.line__red {
+  height: 10rem;
+  width: 100%;
+  background-color: var(--colorPrin);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.circle__black {
+  width: 7rem;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #000;
+  border-radius: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle__white {
+  width: 5rem;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.circle__open-black {
+  width: 3.5rem;
+  aspect-ratio: 1;
+  position: absolute;
+  background-color: #000;
+  border-radius: 50%;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}

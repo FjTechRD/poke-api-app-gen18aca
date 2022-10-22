@@ -1,0 +1,103 @@
+.header__red {
+  height: 10rem;
+  width: 100%;
+  background-color: var(--colorPrin);
+  position: relative;
+}
+
+.header__black {
+  height: 4.6rem;
+  width: 100%;
+  background-color: var(--black);
+}
+
+.circle__header {
+  position: absolute;
+  top: 2rem;
+  left: 80%;
+  transform: translateX(-10%);
+  height: 5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.circle-black {
+  height: 4rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  left: 10%;
+  background-color: var(--black);
+  position: absolute;
+  top: 0.5rem;
+}
+
+.circle-white {
+  height: 3.2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  left: 18%;
+  background-color: var(--white);
+  position: absolute;
+  top: 0.9rem;
+}
+
+.header__info {
+  position: absolute;
+  top: 1.8rem;
+  margin-left: 2rem;
+  color: var(--white);
+}
+.header__logo {
+  max-width: 28rem;
+}
+
+.header-welcome__trainer {
+  font-size: 1.3rem;
+}
+
+.header-welcome__trainer span {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #00ff15;
+}
+
+@media (min-width: 767px) {
+  .header__logo {
+    max-width: 28rem;
+  }
+
+  .header-welcome__trainer {
+    padding-top: 0;
+    font-size: 1.4rem;
+  }
+
+  .header-welcome__trainer span {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00ff15;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__info {
+    position: absolute;
+    top: 1.2rem;
+    margin-left: 5rem;
+    color: var(--white);
+  }
+  .header__logo {
+    max-width: 26%;
+  }
+
+  .header-welcome__trainer {
+    padding-top: 0;
+    font-size: 1.4rem;
+  }
+
+  .header-welcome__trainer span {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #00ff15;
+  }
+}

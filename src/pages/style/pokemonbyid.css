@@ -1,0 +1,293 @@
+.pokemon__by-id {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poke-id__header {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.card-pokemon-id {
+  position: relative;
+  background-color: #fff;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+.poke__img {
+  max-width: 20rem;
+}
+
+.poke-id__name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 2rem;
+  text-transform: capitalize;
+  padding-bottom: 1.8rem;
+  color: #fff;
+}
+
+.crd-pk-tp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.pokeid-type-abilites {
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.poke-id__type-ability {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+
+.crd-pk-tp-containerlabel {
+  font-size: 1.5rem;
+  color: #000;
+}
+.crd-pk-tp-container li {
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+.poke-id__type-ability {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-poke__ability-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-poke__ability-container label {
+  font-size: 1.6rem;
+  color: #000;
+  text-transform: capitalize;
+}
+.card-poke__ability-container li {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.pokeid-ability {
+  padding: 1rem 0;
+  background-color: #80808030;
+}
+
+.pokemon__movements {
+  margin-bottom: 15rem;
+}
+
+.pokemon__movements,
+.stats-container {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding: 1.8rem 0;
+}
+
+.pokemon__movements h2,
+.stats-container h2 {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.pokemon__movements ul,
+.stats-container ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.pokemon__movements li,
+.stats-container li {
+  line-height: 2.5rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #000;
+  background-color: #80808030;
+  margin: 0 1rem;
+  border-radius: 2rem;
+}
+
+.pokemon__movements li:hover {
+  background-color: #80808070;
+}
+
+@media (min-width: 768px) {
+  .container__bg {
+    width: 80%;
+  }
+  .type-stats__pokemon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .pokemon__movements ul {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .pokemon__movements li {
+    padding: 1rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color: #000;
+    background-color: #80808030;
+    border-radius: 2rem;
+  }
+}
+
+/*! BG PER TYPE */
+
+.bg__pk-bug {
+  background-image: url(/public/img/pokeTypeImg/bugtype.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-grass {
+  background-image: url(/public/img/pokeTypeImg/grasstype.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-fire {
+  background-image: url(/public/img/pokeTypeImg/fire.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-water {
+  background-image: url(/public/img/pokeTypeImg/water.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-ground {
+  background-image: url(/public/img/pokeTypeImg/ground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-normal {
+  background-image: url(/public/img/pokeTypeImg/normal.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-fighting {
+  background-image: url(/public/img/pokeTypeImg/fight.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-poison {
+  background-image: url(/public/img/pokeTypeImg/poison.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-rock {
+  background-image: url(/public/img/pokeTypeImg/rock.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-ghost {
+  background-image: url(/public/img/pokeTypeImg/ghost.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-dragon {
+  background-image: url(/public/img/pokeTypeImg/dragon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-psychic {
+  background-image: url(/public/img/pokeTypeImg/psychic.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-dark {
+  background-image: url(/public/img/pokeTypeImg/dark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-ice {
+  background-image: url(/public/img/pokeTypeImg/ice.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-steel {
+  background-image: url(/public/img/pokeTypeImg/steel.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-electric {
+  background-image: url(/public/img/pokeTypeImg/electric.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-fairy {
+  background-image: url(/public/img/pokeTypeImg/fairy.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-shadow {
+  background-image: url(/public/img/pokeTypeImg/shadow.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__pk-unknown {
+  background-image: url(/public/img/pokeTypeImg/unknown.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
