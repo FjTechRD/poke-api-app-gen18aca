@@ -1,0 +1,33 @@
+.not__found-bg {
+  min-height: 100vh;
+  background-image: url(/public/img/err404bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.not__found {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 4.5rem;
+  top: 40%;
+  left: 20%;
+}
+
+.not__found h2 {
+  font-size: 8rem;
+}
+
+.not__found h3 {
+  font-size: 2rem;
+}
+
+.not__found a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--colorPrin);
+}
