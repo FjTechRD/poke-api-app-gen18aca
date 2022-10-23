@@ -1,9 +1,11 @@
 .pagination {
-  padding-top: 1rem;
+  padding-top: 2rem;
   margin: 0 auto;
-  width: max-content;
+  width: 100%;
+  max-width: max-content;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
 }
 
